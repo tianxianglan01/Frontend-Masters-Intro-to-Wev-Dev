@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+.name {
+
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 43px;
+}
+
+.article-title {
+    font-size: 20px;
+    text-align: center;
+    font: italic 1.2em "Fira Sans", serif;
+}
+
+.article-content{
+    text-align: left;
+}
+
+.box-content {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    float: left;
+    height: 350px;
+    width: 33%;
+    border: 3px solid #aaa;
+}
+
+.corgi-pic {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
